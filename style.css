@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin: 5px 0 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* All buttons */
+form button, .edit-btn, .delete-btn {
+    padding: 10px 20px;
+    background-color: #28a745; /* Green */
+    color: white; /* White font color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* On hover */
+form button:hover, .edit-btn:hover, .delete-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#party-filter {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#party-filter:focus {
+    outline: none;
+    border-color: #28a745;
+}
+
+/* To show buttons in one line */
+#print-btn, #export-pdf-btn, #export-excel-btn {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #28a745; /* Green */
+    color: white; /* White font color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
